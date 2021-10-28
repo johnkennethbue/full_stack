@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <link rel = "stylesheet" href = "styles.css">
+        <link rel = "icon" href="assets/caticon.png">
+        <meta charset="UTF-8">
+        <link href= "https://fonts.google.com/specimen/Montserrat" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <title> Cat Adoption Form </title>
+    <body>
+
+        <!--Navigation-->
+
+        <header id = "navigatebar">
+            <nav id = "navbar">
+                <a href="#top">
+                    <img id= "topbutton" src = "assets/caticon1.png" width="80px" height="80px">
+                </a>
+            </nav>
+        </header>
+
+        <!--Heading-->
+        <div id = "head">
+        <h1> Hey there!</h1>
+        <h3 id = "sub"> Please fill out this form if you want to adopt a cat today! 🐱</h3>
+        </div>
+
+        <!-- Personal Info part-->
+        <form class = "form" method="GET">
+            
+            <div id = "personal-info">
+            <h2 id = "pinfo"> Personal Information: </h2>
+
+            <div id = "fname">
+            <label for = "fname"> First Name: </label>
+            <input type = "text" id = "fname" name = "fname" required > <br>
+            </div>
+
+            <div id = "mname">
+            <label for = "mname"> Middle Name: </label>
+            <input type = "text" id = "mname" name = "mname" required> <br>
+            </div>
+             
+            <div id = "lname">
+            <label for = "lname"> Last Name: </label>
+            <input type = "text" id = "lname" name = "lname" required> <br>
+            </div>
+
+            <div id = "fulladd">
+            <label for = "fulladd">Present Address:</label>
+            <input type="text" id= "fulladd" name = "fulladd" required>
+            </div>
+
+            <div id = "dob">
+            <label for = "dob"> Date of Birth:</label>
+            <input type = "date" id = "dob" name = "dob" required> <br>
+            </div>
+
+            <div id = "emailadd">
+            <label for = "emailadd"> Email address: </label>
+            <input type = "text" id = "emailadd" name = "emailadd" required> <br>
+            </div>
+
+            <div id = "phone">
+            <label for = "phone">Phone Number:</label>
+            <input type = "text" id = "phone" name = "phone" required> <br>
+            </div>
+
+            <div id = "existingcat">
+                <label for = "existingcat"> Do you have existing pet cats?:</label>
+                <input type= "radio" id = "existingcat" name = "existingcat" value="yes">
+                <label for = "yes"> Yes </label>
+                <input type="radio" id = "existingcat" name="existingcat" value="no">
+                <label for="no"> No </label>
+            </div>
+
+
+            <!--Cat info part-->
+
+            <h2 id = "catinfo"> Details of the cat that you want to adapt: </h2>
+
+            <div id = "catname">
+                <label for = "catname"> Cat's Name: </label>
+                <input type="text" id ="catname" name = "catname" required> <br>
+            </div>
+
+            <div id = "cat-age">
+                <label for="cat-age"> Age: </label>
+                <input type="text" id = "cat-age" name = "cat-age" required>
+            </div>
+
+            <div id = "catbreed">
+                <label for = "catbreed">Breed/Color</label>
+                <input type="text" id = "catbreed" name = "catbreed" required>
+            </div>
+
+            <div id = "cat-track">
+                <label for = "cat-track"> Tracking/Medical Record #: </label>
+                <input type="text" id = "cat-track" name = "cat-track" required>
+            </div>
+
+            <div id = "cat-sex">
+                <label for = "cat-sex"> Gender: </label>
+                <input type = "radio" id = "cat-sex" name = "cat-sex" value = "male">
+                <label for="male"> Male </label>
+                <input type="radio" id = "cat-sex" name = "cat-sex" value = "female">
+                <label for = "female"> Female </label>
+            </div>
+
+            <div id = "description">
+                <label for="description"> Description: </label>
+                <input type="text" id = "description" name = "description" required>
+            </div>
+
+            <!--Agreement Part-->
+            <h3 id = "agreement"> By clicking Submit below this form, you agreed to:</h3>
+
+            <ul class = "agreelist">
+                <li>
+                    <span>Cats are to live in a private residence as companion animals.</span><br>
+                    <li> 
+                        <span>To provide the cat with sufficient quantities of nutritious food and fresh water each day.</span>
+                        <li>
+                            <span>Never have to have the cat declawed. </span>
+                            <li>
+                                <span>Spaying or neutering is required by five months of age. If cat is not spayed or neutered prior to adoption,
+                                    proof of surgery must be mailed to the original caregiver within 30 days of the procedure.
+                                </span>
+                                <li>
+                                    <span> To ensure that the cat’s vaccinations for rabies and distemper are current and to provide veterinary care
+                                        upon sickness, disease or injury.
+                                    </span>
+                                    <li>
+                                        <span> To give the original caregiver visitation rights to ensure that the terms of this adoption agreement are
+                                            being observed.
+                                        </span>
+                                        <li>
+                                            <span>I understand that failure to perform the foregoing agreement will constitute a breach of contract.</span>
+                                        </li>
+                                    </li>
+                                </li>
+                            </li>
+                        </li>
+                    </li>
+                </li>
+            </ul>
+            
+            <!--Button-->
+            <input id= "buttoneffect" type="submit" name = "button" value="Submit"> 
+
+            </div>
+        </form>
+    </body>
+</html>

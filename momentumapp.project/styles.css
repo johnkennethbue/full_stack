@@ -1,0 +1,203 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif;
+    scroll-behavior: smooth;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-image: url("assets/morning4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat repeat;
+    height: 730px;
+    width: auto;
+}
+
+/* Clock */
+
+.clock {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: rgba(255, 255, 255, 0.836);
+    font-size: 4.8rem;
+    font-weight: 230;
+    letter-spacing: 7px;
+}
+
+/* Greetings */
+
+.greeting{
+    position: absolute;
+    top: 22%;
+    left: 38%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.74);
+    font-size: 1.8rem;
+    font-weight: 240;
+}
+
+/* Quotes */
+
+.quote{
+    color: white;
+    position: absolute;
+    text-align: right;
+    top: 82%;
+    left: 67%;
+    width: 30vw;
+    border: 1px solid white;
+    font-size: 1.2rem;
+    font-weight: 200;
+    border-radius: 10px;
+    border-color: rgba(0, 0, 0, 0.116) ;
+    padding: 20px 10px;
+    background-color: rgba(0, 0, 0, 0.24);
+}
+
+/* Weather (Static) */
+
+.weather{
+    position: absolute;
+    border: 1px solid white;
+    border-color: rgba(0, 0, 0, 0.116) ;
+    background-color: rgba(0, 0, 0, 0.267);
+    border-radius: 10px;
+    top: 34%;
+    left: 67%;
+    width: 30vw;
+    padding: 60px 10px;
+    color: whitesmoke;
+}
+
+#weather-head{
+    margin-left: 28%;
+    font-size: 4.3rem;
+    font-weight: 150;
+}
+
+#weather-info{
+    margin-top: 70px;
+    font-weight: 200;
+    text-align: center;
+}
+
+/* To-Do List */
+ul li{
+    list-style-type:circle;
+    padding: 11px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 250;
+}
+
+ul li.line-through {
+    color: #fff;
+    text-decoration: line-through;
+  }
+
+  .close {
+    position: absolute;
+    right: 9%;
+    font-size: 1.1rem;
+  }
+
+.tdlist{
+    position: absolute;
+    top: 33.5%;
+    left: 1%;
+    padding: 30px 60px;
+    color: whitesmoke;
+    border-color: rgba(0, 0, 0, 0.37);
+    background-color: rgba(0, 0, 0, 0.37);
+    border-radius: 10px;
+}
+
+#list-head{
+    font-size: 2rem;
+    padding-right: 135px;
+    text-align: right;
+    font-weight: 300;
+}
+
+
+#myInput{
+    margin-top: 30px;
+    margin-bottom: 35px;
+    margin-right: 20px;
+    padding: 10px 6px;
+    width: 35.7vmin;
+    background-color: rgba(255, 255, 255, 0.712);
+    color: black;
+    border-radius: 10px;
+    border-style: none;
+    outline: none;
+}
+
+.addBtn{
+    border: 1px solid white;
+    padding: 7px 15px;
+    border-radius: 10px;
+}
+
+.addBtn:hover{
+    background-color: rgba(194, 149, 3, 0.281);
+    cursor: pointer;
+}
+
+/* Focus */
+
+.focus{
+    position: absolute;
+    border: 1px solid white;
+    text-align: center;
+    top: 44%;
+    left: 39.3%;
+    color: white;
+    padding: 60px 40px;
+    width: 40vmin;
+    border-color: rgba(0, 0, 0, 0.37);
+    background-color: rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+}
+
+#focus-head{
+    margin-bottom: 20px;
+    font-size: 2.1rem;
+    font-weight: 300;
+}
+
+#focus-desc{
+    font-size: 1.4rem;
+    font-weight: 250;
+}
+
+#change-focus{
+    position: absolute;
+    top: 0;
+    left: 93%;
+    font-size: 1.9rem;
+    cursor: pointer;
+}
+
+/* Credits */
+
+.credits{
+    color: white;
+    position: absolute;
+    left: 83.4%;
+    top: 1%;
+    font-size: 0.7rem;
+    font-weight: 100;
+}
+
+
+
+
+
+
+
+

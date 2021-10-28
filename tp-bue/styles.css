@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+  scroll-behavior: smooth;
+}
+
+
+#first-div {
+  background-color: black;
+  top: 40px;
+}
+
+#first-div-title {
+  color: whitesmoke;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  ;
+  font-size: 50px;
+  top: 50px;
+  left: 50%;
+  font-weight: 450;
+  padding-top: 100px;
+}
+
+#first-div-subtitle {
+  color: whitesmoke;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding-left: 200px;
+  padding-right: 200px;
+  font-style: italic;
+  font-weight: 400;
+  padding-top: 50px;
+}
+
+#second-div {
+  background-color: #fff;
+  min-height: 503px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+#second-div-text {
+  order: 1;
+  flex-grow: 1;
+  min-width: 30%;
+  margin-top: 152.5px;
+  font-size: 36.8px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 152.5px;
+  font-style: italic;
+}
+
+#quote {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#second-div-image {
+  order: 2;
+  flex-grow: 1;
+  min-width: 45%;
+  align-self: flex-start;
+  max-width: 400px;
+}
+#image {
+  max-width: 100%;
+  box-sizing: border-box;
+  float: left;
+}
+#third-div {
+  background-color: #000;
+  padding-bottom: 13px;
+  padding-right: 13px;
+  padding-left: 13px;
+}
+
+#third-div-content {
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 88px;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+#third-div-title {
+  font-size: 50px;
+  margin-top: 50px;
+}
+
+#third-div-text {
+  margin-top: 25px;
+  font-size: 30px;
+  padding-right: 170px;
+  padding-left: 170px;
+  font-weight: 100;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 55px;
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
